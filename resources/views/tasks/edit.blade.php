@@ -8,6 +8,9 @@
 
     {!! Form::model($task, ['route' => ['tasks.update', $task->id], 'method' => 'put']) !!}
 
+        {!! Form::label('status', 'ステータス:') !!}
+        {!! Form::text('staus') !!}
+        
         {!! Form::label('content', 'タスク:') !!}
         {!! Form::text('content') !!}
 
