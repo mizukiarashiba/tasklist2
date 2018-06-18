@@ -11,7 +11,7 @@
         
         <div class="form-group">
         {!! Form::label('status', 'ステータス:') !!}
-        {!! Form::text('staus') !!}
+        {!! Form::text('status') !!}
         </div>
         
         <div class="form-group">
